@@ -1,5 +1,5 @@
 {
-  "name": "@jasy/decy",
+  "name": "@thereforejs/decy",
   "version": "0.1.0",
   "description": "Exact decimal math for money and quantities: locale-strict parsing, deliberate rounding, allocation without lost cents. Zero dependencies.",
   "keywords": [
@@ -13,15 +13,15 @@
     "parse",
     "rounding"
   ],
-  "homepage": "https://github.com/jasy-pdf/decy#readme",
+  "homepage": "https://github.com/thereforejs/decy#readme",
   "bugs": {
-    "url": "https://github.com/jasy-pdf/decy/issues"
+    "url": "https://github.com/thereforejs/decy/issues"
   },
   "license": "MIT",
   "author": "Florian Heuberger",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jasy-pdf/decy.git"
+    "url": "git+https://github.com/thereforejs/decy.git"
   },
   "files": [
     "dist"

@@ -9,13 +9,13 @@
 - **Tree-shakable, zero dependencies,** one small function per file. Runs in Node and every modern browser.
 
 ```sh
-npm install @jasy/decy
+npm install @thereforejs/decy
 ```
 
 ## Quick start
 
 ```ts
-import { decimal, format, multiply, round } from "@jasy/decy";
+import { decimal, format, multiply, round } from "@thereforejs/decy";
 
 const net = round(multiply(decimal("2.49"), decimal("12")), { scale: 2, mode: "halfAwayFromZero" });
 
