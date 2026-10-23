@@ -40,7 +40,7 @@
     "dev": "vp pack --watch",
     "test": "vp test",
     "check": "vp check",
-    "prepublishOnly": "vp run build",
+    "prepack": "vp check && vp test run && vp pack",
     "prepare": "vp config"
   },
   "devDependencies": {
